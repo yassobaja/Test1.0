@@ -1,0 +1,20 @@
+    // categoryRef.once('value')
+    // .then((snapshot) => {
+    //   snapshot.forEach((category) => {
+    //     const category_key = category.key;
+    //     const category_name = category.val().category_name;
+    //     this.categoryData.push({ category_key, category_name });
+    //   });
+    // })
+    // .then(() => {
+    //   categoryRef.limitToLast(1).on('child_added', (category) => {
+    //     const category_key = category.key;
+    //     const category_name = category.val().category_name;
+    //     this.categoryData.push({ category_key, category_name });
+    //   });
+    // });
+          // const indexOfKey = this.categoryData.findIndex(el => el.category_key === categoryKey);
+      // categoryRef.child(categoryKey).remove();
+      // if (indexOfKey !== -1) {
+      //   this.categoryData.splice(indexOfKey, 1);
+      // }
